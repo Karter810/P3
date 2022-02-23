@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@300;400;500&family=Shrikhand&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    font-family: 'Shrikhand', cursive;
+    text-align: center;
+    box-shadow: 0px 3px 3px 1px #404C63;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+h1{
+    margin: 0;
+}
+
+main .city{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background: lightgray;
+    text-align: center;
+    padding: 0.5rem;
+}
+/*Explorer*/
+.explorer{
+    text-align: center;
+    background-color: #d9e5f5;
+    padding: 50px;
+}
+.explorer h2{
+    margin-top: 50px;
+}
+.explorer button{
+    text-transform: sc;
+    color: white;
+    font-weight: 300;
+    font-size: 1.5rem;
+    border: none;
+    padding: 10px;
+    border-radius: 2rem;
+    box-shadow: 4px 5px 3px lightgray;
+    background-image: linear-gradient(#e66465, #ff006d);
+}
+.explorer button:hover{
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+/*Fonctionnement*/
+.sectionFonctionnement{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+section h2{
+    margin-left: 30px;
+}
+.fonctionnement{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.fonctionnementDetails{ 
+    background-color: #d9e5f5;
+    border-radius: 40px;
+    box-shadow: 0px 5px 5px lightgray;
+    margin-left: 30%;
+    height: 80px;
+    width: 300px;
+    margin-bottom: 35px;
+}
+/*Restaurants*/
+.sectionRestaurants{
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color:lightgray;
+}
+.blocRestaurants{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px gray;
+    background-color: white;
+}
+.imageRestaurant1{
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+    border-radius: 15px 15px 0 0;
+}
+.blocdetailsRestaurant{
+    padding-left: 5%;
+    margin-bottom: 5%;
+}
+/*footer*/
+footer{
+    background-color: #323437;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+footer h3{
+    font-family: 'Shrikhand', cursive;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
